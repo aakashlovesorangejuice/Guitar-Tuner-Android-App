@@ -1,0 +1,70 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowBackground">@color/primary_light_color</item>
+        <item name="colorPrimary">@color/primary_color</item>
+        <item name="colorPrimaryDark">@color/primary_dark_color</item>
+        <item name="colorAccent">@color/primary_accent_color</item>
+        <item name="android:textColorPrimary">@color/primary_text_color</item>
+        <item name="android:navigationBarColor">@color/primary_dark_color</item>
+        <item name="android:colorControlNormal">@color/white</item>
+    </style>
+
+    <style name="SplashTheme" parent="AppTheme">
+        <item name="android:windowBackground">@drawable/splash_screen_background</item>
+    </style>
+
+    <style name="PermissionDialog" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:textColorPrimary">@color/secondary_text_color</item>
+        <item name="android:colorAccent">@color/primary_accent_color</item>
+    </style>
+
+    <!-- Button Styles -->
+
+    <style name="Button" parent="Base.TextAppearance.AppCompat.Button">
+        <item name="android:textColor">@color/primary_text_color</item>
+    </style>
+
+    <style name="Button.Permission" parent="Base.Widget.AppCompat.Button.Borderless">
+        <item name="android:textSize">@dimen/text_size_small</item>
+        <item name="android:padding">@dimen/spacing_small</item>
+    </style>
+
+    <!-- Subheaders -->
+
+    <style name="Subheader" parent="Base.TextAppearance.AppCompat.Subhead">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">@dimen/spacing_small</item>
+        <item name="android:textSize">@dimen/text_size_xsmall</item>
+        <item name="android:textColor">@color/white_50_percent_transparency</item>
+    </style>
+
+    <!-- Lists -->
+
+    <style name="TwoLineCell">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">?android:attr/selectableItemBackground</item>
+    </style>
+
+    <style name="TwoLineCellFirstLineText">
+        <item name="android:textSize">@dimen/text_size_small</item>
+        <item name="android:layout_marginStart">@dimen/spacing_small</item>
+        <item name="android:layout_marginEnd">@dimen/spacing_small</item>
+        <item name="android:layout_marginTop">@dimen/spacing_small</item>
+        <item name="android:textColor">@color/primary_text_color</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+
+    <style name="TwoLineCellSecondLineText">
+        <item name="android:textSize">@dimen/text_size_xsmall</item>
+        <item name="android:layout_marginBottom">@dimen/spacing_small</item>
+        <item name="android:textColor">@color/white_50_percent_transparency</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+
+</resources>

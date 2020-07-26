@@ -1,0 +1,77 @@
+<resources>
+
+    <string name="app_name">Tuner</string>
+
+    <string name="permission_dialog_rationale_title">Android Guitar Tuner Needs Permission</string>
+    <string name="permission_dialog_rationale_desc">The permission for Audio Recording is needed so the app can determine what note is being played. Without this permission the app cannot run.</string>
+    <string name="permission_icon_content_description">An icon illustrating an audio permission rationale.</string>
+    <string name="permission_title">Tune your guitar</string>
+    <string name="permission_description">Android Guitar Tuner uses your device\'s microphone to determine the pitch frequency of the note being played.</string>
+    <string name="permission_grant_access_title">Grant Access</string>
+    <string name="permission_grant_access_description">Change permissions in your device\'s app settings. Give Android Guitar Tuner access to Record Audio.</string>
+    <string name="permission_exit_button">Exit</string>
+    <string name="permission_settings_button">Settings</string>
+    <string name="permission_allow_button">Grant</string>
+
+    <string name="volume_state_on">Playing</string>
+    <string name="volume_state_muted">Volume is muted</string>
+
+    <string name="app_bar_action_share">Share</string>
+    <string name="app_bar_action_info">Info</string>
+
+    <string name="share_app_intent_type">text/plain</string>
+    <string name="share_app_subject">@string/app_name</string>
+    <string name="share_app_description">Download %1$s and keep your guitar in tune. %2$s</string>
+    <!-- TODO update App Link -->
+    <string name="share_app_link">APP LINK GOES HERE</string>
+    <string name="share_app_intent_title">Share App Link</string>
+
+    <string name="pitch_player_error_playing_note_description_with_action">Unexpected error.</string>
+    <string name="pitch_player_error_playing_note_description_without_action">Unexpected error. Please try again later.</string>
+    <string name="pitch_player_error_playing_note_action">Retry</string>
+
+    <string name="app_info_appbar_title">App Info</string>
+    <string name="app_info_subheader_app">App</string>
+    <string name="app_info_label_app_name">Application Name</string>
+    <string name="app_info_label_package_name">Package Name</string>
+    <string name="app_info_label_apk_location">App APK Location</string>
+    <string name="app_info_label_first_install">First Installed</string>
+    <string name="app_info_label_last_updated">Last Updated</string>
+    <string name="app_info_label_app_store">Google Play Store</string>
+    <string name="app_info_text_app_store">Open in Play Store</string>
+    <string name="app_info_subheader_version">Version</string>
+    <string name="app_info_label_version_name">App Version Name</string>
+    <string name="app_info_label_version_code">App Version Code</string>
+    <string name="app_info_subheader_android">Android</string>
+    <string name="app_info_label_android_min_version">Minimum Android Version</string>
+    <string name="app_info_label_android_target_version">Target Android Version</string>
+    <string name="app_info_label_android_device_version">Device\'s Android Version</string>
+    <string name="app_info_subheader_source">Source</string>
+    <string name="app_info_label_code">Open Source Code</string>
+    <string name="app_info_link_code">https://github.com/chRyNaN/Android-Guitar-Tuner</string>
+    <string name="app_info_text_code">Contribute</string>
+    <string name="app_info_label_issues">Issue</string>
+    <string name="app_info_link_issue">https://github.com/chRyNaN/Android-Guitar-Tuner/issues</string>
+    <string name="app_info_text_issues">Submit Issue</string>
+    <string name="app_info_subheader_legal">Legal</string>
+    <string name="app_info_label_license">License</string>
+    <string name="app_info_text_license">Apache License, Version 2.0</string>
+    <string name="app_info_link_license">https://github.com/chRyNaN/Android-Guitar-Tuner/blob/develop/LICENSE</string>
+    <string name="app_info_text_api_level">Android %s API %d</string>
+
+    <string-array name="circle_tuner_view_notes">
+        <item>C</item>
+        <item>C\u266F</item>
+        <item>D</item>
+        <item>D\u266F</item>
+        <item>E</item>
+        <item>F</item>
+        <item>F\u266F</item>
+        <item>G</item>
+        <item>G\u266F</item>
+        <item>A</item>
+        <item>A\u266F</item>
+        <item>B</item>
+    </string-array>
+
+</resources>
